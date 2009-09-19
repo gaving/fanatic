@@ -1,0 +1,4 @@
+config:
+    growl_host: host
+    prowl_key: key
+    cookie_file: cookies.txt

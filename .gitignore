@@ -1,0 +1,4 @@
+*.pyc
+fanatic.yml
+cookies.txt
+tools/*
