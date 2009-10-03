@@ -18,7 +18,6 @@ Options:
 """
 
 import sys
-
 import time
 import os.path
 import urllib2
@@ -59,7 +58,7 @@ if not os.path.exists(DEFAULTS['config']):
 # General configuration
 URL = "http://www.stackoverflow.com/"
 USER_AGENT = "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/530.19.2 (KHTML, like Gecko) Version/4.0.2 Safari/530.19"
-TOKEN_STRING = "gavin-gilmour" # Crude as hell token to determine if we are logged in or not
+TOKEN_STRING = "/users/logout" # Crude as hell token to determine if we are logged in or not
 FANATIC_DAY_THRESHOLD = 100
 MESSAGE_TITLE = "Stackoverflow hit!"
 MESSAGE_BODY = "Only %d days to go! (you're on day %d ^_^)"
